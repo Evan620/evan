@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+h4 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  padding: 12px;
+}
+h2 {
+  font-family: "poppins" sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #5b8291;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100px;
+  height: 150px;
+}
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #5b8291;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 8px 50px;
+  color: #5b8291;
+  position: relative;
+  margin-left: 40px;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background-color: #5b8291;
+  transition: 0.3s;
+}
+.navbar a:hover::before {
+  width: 100%;
+}
+
+#herosection {
+  height: 800px;
+  border: 1px solid black;
+  background-image: url(image.one.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 48px;
+  font-weight: lighter;
+  text-align: left;
+  font-family: "poppins", sans-serif;
+  color: #98dad9;
+  padding-top: 41px;
+  padding-left: 131px;
+  padding-right: auto;
+}
+.Orthopaedician {
+  font-weight: bolder;
+}
+.hero-text {
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 41px;
+  padding-left: auto;
+}
+hr {
+  margin-top: 120px;
+  border: 1px solid #5b8291;
+}
+#sub-hero {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+}
+.sub-hero-description {
+  background-color: #2e424d;
+  margin: 94px;
+  margin-top: 0;
+ 
+
+  color: #ffffff;
+  font-size: 40px;
+  padding: 20px;
+}
+.contact-button {
+  padding: 5px;
+  background-color: #5b8291;
+  color: #ffffff;
+  border: 1px solid white;
+  float: right;
+}
+.description {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  padding: 12px;
+}
+button {
+  padding: 10px;
+  text-align: center;
+}
+
+#magwaroinfo {
+  display: flex;
+  margin-top: 400px;
+  font-family: "poppins" sans-serif;
+  padding-left: 131px;
+  text-align: left;
+  padding-top: 100px;
+}
+.magwaroinfortext {
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  color: #5b8291;
+  width: 80%;
+  padding-left: 200px;
+}
+#readmore {
+  background: #2e424d;
+  color: #ffffff;
+  border-radius: 12px;
+  margin:  20px;
+  margin-right: 600px;
+  width: 20%;
+  float: right;
+  padding: 8px;
+
+}
+.expertise {
+  display: flex;
+  margin-top: 150px;
+  padding-left: 132px;
+  width: 100%;
+}
+#magwaropic {
+  width: 50%;
+}
+.areaofexpertise {
+  list-style: none;
+  float: right;
+}
+h5 {
+  font-family: "Inter" sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #5b8291;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.expertisetext {
+  color: #5b8291;
+  font-family: "Inter" sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  width: 60%;
+  padding-bottom: 10px;
+}
+ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+#emergency{
+    height: 100px;
+    text-decoration: none;
+    background: #D9D9D9;
+    color: #5b8291;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 20px;
+}
+.sendmessage{
+    margin: 0 auto;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #2e424d;
+    box-shadow: #2e424d;
+    border-radius: 10px;
+}
+.choosemagwaro{
+    margin: 0 auto;
+    text-align: center;
+    color: #2e424d;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+
+
+}
+.choosemagwaro h4{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.choosemagwaro p{
+    padding-bottom: 50px;
+    width: 90%;
+    text-align: center;
+}
+.surgeriesdone{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    
+
+}
+.surgeriesdone div{
+    width: 30%;
+    
+    background: #E8E8E8;
+    margin: 20px;
+}
+.surgeriesdone img{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.surgeriesdone h6{
+    font-family: "Inter" sans-serif;
+font-size: 32px;
+font-weight: 700;
+padding-left: 70px;
+text-align: left;
+}
+.surgeriesdone p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 300;
+text-align: left;
+padding-top: 10px;
+color: #5b8291;
+padding-left: 70px;
+}
+.logosection{
+    height: 500px;
+    background: #D9D9D9;
+   padding-top: 100px;
+   padding-right: 100px;
+   padding-left: 100px;
+   align-items: center;
+}
+.logosection img{
+    padding: 30px;
+}
+.endsection{
+    height: 1200px;
+  background-image: url(piron-guillaume-y5hQCIn1c6o-unsplash.jpg);
+  background-size: cover;
+  color: #6df3f1;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+.endsection p{
+    padding-top: 200px;
+    padding-right: 100px;
+    float: right;
+    width: 80%;
+    font-family: Verdana;
+font-size: 30px;
+font-weight: 200;
+line-height: 100px;
+text-align: center;
+
+}
+.endsection span{
+    padding-top: -200px;
+}
+.maps{
+    width: 100%;
+}
+.maps img{
+    width: fit-content;
+}
